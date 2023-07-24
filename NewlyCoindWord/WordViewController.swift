@@ -123,8 +123,8 @@ class WordViewController: UIViewController {
     //밸류 레이블 디자인
     func designResultLabel() {
         resultLabel.text = ""
-        resultLabel.layer.borderColor = UIColor.black.cgColor
-        resultLabel.layer.borderWidth = 3
+//        resultLabel.layer.borderColor = UIColor.black.cgColor
+//        resultLabel.layer.borderWidth = 3
         resultLabel.textAlignment = .center
     }
     
