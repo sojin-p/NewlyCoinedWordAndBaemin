@@ -47,6 +47,8 @@ class WordViewController: UIViewController {
             showAlert(title: "검색 결과가 없습니다")
         }
         
+        showRandomWordInButton()
+        
     }
     
     //신조어 버튼을 누르면 버튼 타이틀이 텍스트 필드에 써지고, 키보드가 올라온다.
