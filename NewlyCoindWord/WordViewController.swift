@@ -36,13 +36,15 @@ class WordViewController: UIViewController {
         
         //텍스트필드 텍스트와 딕셔너리 키를 비교 후 밸류를 가져온다.
         //딕셔너리 밸류 = 딕셔너리[키]
-
-        if let inputWord = inputTextField.text, let value = allDictionary()[inputWord] { //옵셔널 바인딩
+        guard let inputWord = inputTextField.text, inputWord.count > 1 else {
+            showAlert(title: "내용을 두 글자 이상 입력해 주세요") //위 조건이 참이 아니면 여기 실행
+            return
+        }
+        
+        if let value = allDictionary()[inputWord] { //옵셔널 바인딩
             resultLabel.text = value
-        } else if inputTextField.text?.isEmpty == true { //입력 안했으면
-            showAlert(title: "내용을 입력해 주세요.")
-        } else { //밸류가 닐이면
-            showAlert(title: "검색 결과가 없습니다.")
+        } else {
+            showAlert(title: "검색 결과가 없습니다")
         }
         
     }

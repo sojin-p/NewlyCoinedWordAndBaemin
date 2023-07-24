@@ -52,7 +52,7 @@
                                     <action selector="wordButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="DgM-B1-m5Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="600" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAA-S0-OZg">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalCompressionResistancePriority="600" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAA-S0-OZg">
                                 <rect key="frame" x="74" y="152" width="46" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="9cN-rP-zlO"/>
@@ -63,7 +63,7 @@
                                     <action selector="wordButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="c8b-Zv-6jd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="600" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yu2-NZ-CIO">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalCompressionResistancePriority="600" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yu2-NZ-CIO">
                                 <rect key="frame" x="128" y="152" width="46" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="vJK-wh-Dit"/>
@@ -74,7 +74,7 @@
                                     <action selector="wordButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="0lQ-Ms-pax"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="300" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5An-hS-Ytk">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" horizontalCompressionResistancePriority="300" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5An-hS-Ytk">
                                 <rect key="frame" x="182" y="152" width="46" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="5R2-0v-BMf"/>
@@ -85,7 +85,7 @@
                                     <action selector="wordButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="UN9-pM-R5E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWk-Mz-1v3">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWk-Mz-1v3">
                                 <rect key="frame" x="236" y="152" width="46" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="Lwc-fX-eCS"/>
